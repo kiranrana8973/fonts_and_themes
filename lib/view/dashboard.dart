@@ -13,7 +13,6 @@ class _DashboardViewState extends State<DashboardView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dashboard'),
-        centerTitle: true,
       ),
       body: const Center(
         child: Text('Dashboard Page'),

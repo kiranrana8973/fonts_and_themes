@@ -9,7 +9,6 @@ class RegisterView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Register'),
-        centerTitle: true,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8),
@@ -19,28 +18,24 @@ class RegisterView extends StatelessWidget {
             const SizedBox(height: 20),
             const TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
                 labelText: 'First Name',
               ),
             ),
             const SizedBox(height: 20),
             const TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
                 labelText: 'Last Name',
               ),
             ),
             const SizedBox(height: 20),
             const TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
                 labelText: 'Age',
               ),
             ),
             const SizedBox(height: 20),
             const TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
                 labelText: 'Email',
               ),
             ),

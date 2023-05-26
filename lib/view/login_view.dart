@@ -8,7 +8,6 @@ class LoginView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
-        centerTitle: true,
       ),
       // Create two textform field and elevated button for login page
       body: Padding(
@@ -16,24 +15,42 @@ class LoginView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // const Text(
+            //   'Regular',
+            //   style: TextStyle(
+            //     fontFamily: 'Montserrat',
+            //     fontWeight: FontWeight.normal, // or weight: FontWeight.w400
+            //   ),
+            // ),
+            // const Text(
+            //   'Bold',
+            //   style: TextStyle(
+            //     fontFamily: 'Montserrat',
+            //     fontWeight: FontWeight.bold, // or weight: FontWeight.w700
+            //   ),
+            // ),
+            // const Text(
+            //   'Thin Italic',
+            //   style: TextStyle(
+            //     fontFamily: 'Montserrat',
+            //     fontWeight: FontWeight.w100,
+            //     fontStyle: FontStyle.italic,
+            //   ),
+            // ),
             const Text(
               'Login Page',
               style: TextStyle(
-                fontFamily: 'Montserrat',
                 // fontStyle: FontStyle.italic,
                 fontSize: 30,
-                fontWeight: FontWeight.w700,
+                // fontWeight: FontWeight.w700,
               ),
             ),
             const SizedBox(height: 20),
             const TextField(
               // Add font
               style: TextStyle(
-                fontFamily: 'Montserrat',
-                // fontStyle: FontStyle.italic,
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
-              ),
+                  // fontStyle: FontStyle.italic,
+                  ),
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 labelText: 'Email',
